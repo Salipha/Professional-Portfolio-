@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+.heronav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.heronav nav {
+    padding-top: 10px;
+    margin-right: 5px;
+    float: right;
+    font-family:
+    font-size: 20px;
+  }
+  .heronav nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  #heroimage{
+    background-image: url("../img/phonto.png");
+height: 200px;
+background-position: center;
+  }
+  .herotext{
+
+  }
+
+.professional-portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.work-folder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.professional-portfolio > h2 {
+  flex: 0 0 20%;
+}
+.professional-portfolio > div {
+  flex: 0 0 75%;
+}
+.work-file {
+  background-color: pink;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  flex-basis: calc(50% - 1em);
+  transition: all 0.5s;
+  padding: 50px;
+  margin: 3px;
+}
+.work-file:first-child {
+  height: 500px;
+  flex-basis: 100%;
+}
+#freetown{
+  background-image: url("../img/freetown.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#new-york{
+  background-image: url("../img/newyork.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#london{
+  background-image: url("../img/london.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#paris{
+  background-image: url("../img/Paris.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dubai{
+  background-image: url("../img/Dubai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
